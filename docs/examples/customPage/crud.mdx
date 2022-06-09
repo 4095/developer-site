@@ -28,7 +28,7 @@ data ，对应的值是处理好的数组 PS: 如果返回的数据是 proxy 形
 ```javascript
 function didFetch(content) {
   // content.b = 1; 修改返回数据结构中的 b 字段为1
-  // const value = [];
+  const value = [];
 
   const data = content.data.map((item) => {
     let arr = {
